@@ -1,0 +1,6 @@
+/* We are keeping this file minimal to avoid conflicts. */
+/* App.css will handle the primary layout styling. */
+body {
+  margin: 0;
+  background-color: #f0f2f5; /* A default background color */
+}

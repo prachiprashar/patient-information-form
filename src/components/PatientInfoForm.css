@@ -1,0 +1,46 @@
+/* Styling for the main form container card */
+.patient-form-card {
+  border: 1px solid #e8e8e8;
+  border-radius: 12px; /* Softer corners */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+  background: #ffffff;
+  overflow: hidden; /* Ensures child elements respect the border radius */
+}
+
+/* Styling for the custom title */
+.form-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #001529; /* Dark color for professionalism */
+}
+
+/* Increase the font-weight and color of form labels for better readability */
+.ant-form-item-label > label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Styling for the submit button */
+.submit-button {
+  height: 48px; /* Taller button for better clickability */
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 8px; /* Consistent rounded corners */
+  transition: all 0.3s ease;
+}
+
+/* A subtle hover effect for the button */
+.submit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(24, 144, 255, 0.3);
+}
+/* Styling for the card when showing the success result */
+.ant-card-body {
+  padding: 0; /* Remove default padding as we handle it internally */
+}
+
+.ant-result {
+  padding: 48px 32px; /* Add nice padding to the success message */
+}

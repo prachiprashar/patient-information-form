@@ -1,0 +1,31 @@
+.layout {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: #001529;
+  padding: 0 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  padding: 40px 20px; /* Added padding for smaller screens */
+}
+
+/* THIS IS THE MOST IMPORTANT RULE FOR CENTERING */
+.site-layout-content {
+  max-width: 900px;
+  margin: 0 auto; /* 'auto' on left and right margin centers the element */
+}
+
+.footer {
+  text-align: center;
+  background-color: transparent;
+}
