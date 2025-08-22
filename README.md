@@ -1,16 +1,16 @@
 # Patient Information Form 🚀
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Now-2ea44f?style=for-the-badge&logo=github)](https://prachi-prashar.github.io/patient-information-form/)[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)[![Vite](https://img.shields.io/badge/Vite-Fast-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)[![Ant Design](https://img.shields.io/badge/Ant_Design-UI-1677FF?style=for-the-badge&logo=ant-design)](https://ant.design/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)[![Vite](https://img.shields.io/badge/Vite-Fast-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)[![Ant Design](https://img.shields.io/badge/Ant_Design-UI-1677FF?style=for-the-badge&logo=ant-design)](https://ant.design/)
 
 A modern, responsive, and user-friendly web application for collecting patient information. Built with a fast Vite + React frontend and the professional Ant Design component library, this project demonstrates a clean, single-page application architecture focused on excellent user experience and robust form handling.
 
 ---
 
-## 🎬 Live Demo
+## 📸 Project Screenshot
 
-**Check out the live application hosted on GitHub Pages:**
+![Patient Information Form Screenshot](./public/screenshot.png)
 
-### 👉 [https://prachi-prashar.github.io/patient-information-form/](https://prachi-prashar.github.io/patient-information-form/)
+*(**Note:** To make this screenshot appear, take a picture of your application running, save it as `screenshot.png`, and place it inside the `/public` folder of your project.)*
 
 ---
 
@@ -38,24 +38,21 @@ Upon clicking the "Submit" button, the application performs the following action
 ### 2. Viewing the Output
 
 To see the captured data:
-1.  Open the live demo link.
+1.  Run the project locally (see instructions below).
 2.  Open your browser's Developer Tools (usually by pressing `F12` or `Ctrl+Shift+I`).
 3.  Click on the **"Console"** tab.
 4.  Fill out the form and click "Submit".
 5.  The complete form data object will appear in the console.
 
-> **Note on Production Use:** This console-logging approach is for demonstration purposes only. A production-ready application would send this data via a secure API request to a backend server, which would then store it in a database.
+> **Note on Production Use:** This console-logging approach is for demonstration purposes only. A production-ready application would send this data via a secure API request to a backend server for storage in a database.
 
 ---
 
-## 🛠️ Technology Stack & Architecture
-
-This project is a client-side application built with a modern frontend toolchain.
+## 🛠️ Technology Stack
 
 -   **Frontend:** Built with **React** for creating a dynamic, component-based user interface.
 -   **Build Tool:** **Vite** is used for its blazing-fast development server and optimized production builds.
 -   **UI Framework:** **Ant Design** provides a comprehensive library of enterprise-class UI components that ensures a polished and consistent look and feel.
--   **Deployment:** The application is deployed as a static site on **GitHub Pages**, with an automated deployment process managed by the `gh-pages` package.
 
 ---
 
@@ -85,6 +82,14 @@ To get a local copy up and running, follow these simple steps.
     ```sh
     npm run dev
     ```
-    The application will open automatically in your browser at `http://localhost:5173`.
+    The application will now be running on `http://localhost:5173`.
 
 ---
+
+## 📜 Available Scripts
+
+In the project directory, you can run:
+
+-   `npm run dev`: Runs the app in development mode.
+-   `npm run build`: Bundles the application for production to the `dist` folder.
+-   `npm run preview`: Serves the production build locally to test it before deploying.
