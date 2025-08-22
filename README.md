@@ -10,7 +10,6 @@ A modern, responsive, and user-friendly web application for collecting patient i
 
 ![Patient Information Form Screenshot](./public/screenshot.png)
 
-*(**Note:** To make this screenshot appear, take a picture of your application running, save it as `screenshot.png`, and place it inside the `/public` folder of your project.)*
 
 ---
 
